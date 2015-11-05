@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mermas.u1.javier.ferrada</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_producto">ProductoActivity</string>
+    <string name="title_activity_cliente">ClienteActivity</string>
+    <string name="title_activity_pedidos">PedidosActivity</string>
+    <string name="title_activity_los_clientes">LosClientesActivity</string>
+    <string name="valor">campo</string>
+    <string name="add_cliente">Agregar Nuevo Cliente</string>
+    <string name="add_pedido">Agregar Pedidos</string>
+    <string name="add_productos">Ver Productos</string>
+
+</resources>

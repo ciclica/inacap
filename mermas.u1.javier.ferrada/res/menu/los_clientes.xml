@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cl.inacap.mermas.u1.javier.ferrada.LosClientesActivity" >
+
+    <item
+        android:icon="@android:drawable/ic_menu_add"
+        android:id="@+id/menu_cliente"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/add_cliente"
+        />
+
+     <item
+        android:icon="@android:drawable/ic_menu_add"
+        android:id="@+id/menu_pedidos"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/add_pedido"
+        />
+      <item
+        android:icon="@android:drawable/ic_menu_add"
+        android:id="@+id/menu_productos"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="@string/add_productos"
+        />
+    
+</menu>

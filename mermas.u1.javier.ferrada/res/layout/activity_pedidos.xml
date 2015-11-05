@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cl.inacap.mermas.u1.javier.ferrada.PedidosActivity" >
+
+    <Spinner
+        android:id="@+id/sp_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Registro Pedidos."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btm_insPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sp_CliBase"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:text="Inserta Pedido" />
+
+    <Spinner
+        android:id="@+id/sp_CliBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btm_insPedido"
+        android:layout_alignLeft="@+id/txt_fecha" />
+
+    <EditText
+        android:id="@+id/txt_cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sp_producto"
+        android:layout_below="@+id/sp_producto"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Cantidad"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txt_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_cantidad"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Fecha Entrega"
+        android:inputType="date" />
+
+</RelativeLayout>

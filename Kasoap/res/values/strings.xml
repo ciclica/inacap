@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TemperaturaConverter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Converter</string>
+    <string name="Titulo1">Conversión Temperatura</string>
+    <string name="subTitulo">Fahrenheit to Celsius</string>
+    <string name="TF">Fahrenheit:</string>
+    <string name="TC">Celsius:</string>
+    <string name="btn1">a Celcius</string>
+    <string name="btn2">a Fahrenheit</string>
+
+</resources>
